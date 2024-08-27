@@ -22,4 +22,6 @@ public class Batteries {
     private String name;
     private String postCode;
     private Integer wattCapacity;
+
+
 }

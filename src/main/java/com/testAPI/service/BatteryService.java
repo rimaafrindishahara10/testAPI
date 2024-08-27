@@ -6,10 +6,12 @@ import java.util.List;
 
 public interface BatteryService {
 
-    public Batteries addBattery(Batteries batteries);
+    public void  addBattery(Batteries batteries);
 
-    public List<Batteries> getAllBatterries();
+    public List<Batteries> getAllBatteries();
 
-    public Batteries getOne(Integer id);
+    public BatteryResponse getBatteryResponses(String postCode);
+
+
 
 }
